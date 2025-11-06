@@ -18,11 +18,12 @@ fn main() {
     x += 1;
     println!("x after adding: {}", x);
     
-    let logged_in = true;
-    let is_admin = false;
+    let logged_in: bool = true;
+    let is_admin: bool = false;
 
    println!("Is regular user: {}", logged_in && !is_admin);
    println!("Has any access: {}", logged_in || is_admin);
    println!("Not logged in: {}", !logged_in);
+
 }
 
