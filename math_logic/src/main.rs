@@ -25,5 +25,9 @@ fn main() {
    println!("Has any access: {}", logged_in || is_admin);
    println!("Not logged in: {}", !logged_in);
 
+   let age = 20;
+   let can_vote = age >=18; //I can let it compare true false in one line
+   println!("Can vote = {}", can_vote);
+
 }
 
