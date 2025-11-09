@@ -10,6 +10,6 @@ fn main() {
     let mut x = 16;
     println!("My age is {} this year", x);
     x = 17;
-    println!("My age is {} next year", x);
+    println!("My age is {x} next year");
 
 }
