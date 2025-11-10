@@ -33,5 +33,6 @@ fn main() {
     let fruits: [&str; 3] = ["Apples", "Bananas", "Peaches"];
     println!("{:?}", fruits);
     println!("{}", fruits[0]);
+    let people = ("Henry", 32, true);
     
 }
